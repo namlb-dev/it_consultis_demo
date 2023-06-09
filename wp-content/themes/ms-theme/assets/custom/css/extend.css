@@ -1,0 +1,56 @@
+body, p {
+  margin: 0;
+}
+
+#content .elementor-container {
+  max-width: 100%;
+}
+
+#content .elementor-container .elementor-element-populated {
+  padding: unset;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-achievement ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.list-achievement ul li {
+  margin-bottom: 10px;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+}
+
+.arrows ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid var(--third-black);
+  cursor: pointer;
+}
+
+.flag {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+

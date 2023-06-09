@@ -1,0 +1,49 @@
+body, p {
+    margin: 0;
+}
+
+#content .elementor-container {
+    max-width: 100%;
+    .elementor-element-populated {
+        padding: unset;
+    }
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-achievement {
+    ul {
+        @apply list-disc ml-20px;
+        li {
+            @apply mb-10px;
+        }
+    }
+}
+
+.arrows {
+    @apply absolute w-full top-1/2 left-0;
+
+    ul {
+        @apply flex justify-between;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: transparent;
+            border: 1px solid var(--third-black);
+            cursor: pointer;
+        }
+    }
+}
+
+.flag {
+    position: sticky;
+    top: 50px;
+}
